@@ -1,0 +1,96 @@
+body .footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(165, 168, 170);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: white;
+}
+
+body .container .row .col-sm-12 .card .card-header{
+    font-size: 14px;
+    font-family: sans-serif;
+    color: black;
+    text-align: left;
+   
+}
+
+body .container .row .col-sm-12 .card .card-body .image img{
+    
+    width: 100%;
+    height: 200px;
+}
+
+body .container .row .col-sm-12 .card .card-body .description{
+   font-size: 14px;
+   font-family: sans-serif;
+   color: black;
+   width: 150px;
+   overflow: hidden;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   margin-top: 10px;
+
+  
+}
+
+
+.card-footer .status-pl{
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card-footer .pl-date{
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.container .page-title{
+    font-size: 22px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.container .jumbotron .section{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.container .jumbotron .section div{
+    width:  30%;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: black;
+}
+.container .jumbotron .section p{
+    width:  70%;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.container .jumbotron .section .image{
+    width:  70%;
+}
+
+.container .jumbotron .section .image img{
+    width: 300px;
+    height: 200px;
+}
+
+.navbar-nav li a{
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border: 1px solid black;
+}
+
